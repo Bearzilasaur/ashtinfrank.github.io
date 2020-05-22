@@ -27,16 +27,11 @@ h1 {
     font-size: 12pt;
 }
 
-
-
-
-
-
-
-
 nav {
+    display: flex;
+    align-content: center;
+    align-content: center;
     width: 100%;
-
 }
 
 .navbar {
@@ -44,19 +39,19 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     background-color: var(--sunglow);
-    border-radius: 2px;
     padding: 3px;
 }
 
 .navlinks {
     list-style: none;
+    align-items: center;
 }
 
 .nav-item a {
     display: inline-block;
     padding: 10px 15px;
     text-decoration: none;
-    color: white;
+    color:var(--rifle-green);
 }
 
 .nav-item:hover {
@@ -79,6 +74,13 @@ ul {
     padding: 0;
     flex-direction: row;
     justify-self: start;
+}
+
+.regul {
+    display: flex;
+    flex-direction: column;
+    list-style: square;
+    word-wrap: normal;
 }
 
 .flexbox-center-row {
