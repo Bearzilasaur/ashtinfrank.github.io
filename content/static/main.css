@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Open+Sans:wght@300&display=swap');
+
+:root {
+    --cambridge-blue: #B9D8C2;
+    --opal: #9AC2C9;
+    --cadet-grey: #8AA1B1;
+    --rifle-green: #4A5043;
+    --sunglow: #FFCB47;
+}
+
+body {
+    background-color: var(--cambridge-blue);
+}
+
+h1 {
+    color: black;
+    padding: 5px 5px 0px 5px;
+    text-align: center;
+    font-family: 'Courier Prime', monospace;
+    font-size: 32pt;
+}
+
+ p {
+    padding: 5px;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12pt;
+}
+
+
+
+
+
+
+
+
+nav {
+    width: 100%;
+
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--sunglow);
+    border-radius: 2px;
+    padding: 3px;
+}
+
+.navlinks {
+    list-style: none;
+}
+
+.nav-item a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-item:hover {
+    background-color: white;
+}
+  
+.nav-item:hover a {
+color: darkgreen;
+}
+
+
+
+
+
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+    justify-self: start;
+}
+
+.flexbox-center-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexbox-container {
+    display: flex;
+    align-items: center;
+}
+
+.profile-image {
+    max-width: 450px;
+    max-height: auto;
+}
+
+.flexbox-columnar {
+    flex-direction: column;
+}
+
+.flexbox-row {
+    flex-direction: row;
+}
+
+.even {
+    justify-content: space-evenly
+}
+
+.around {
+    justify-content: space-around;
+}
+
+.wide {
+    justify-content: space-between;
+}
+
+.blue-box {
+    background-color: var(--cadet-grey);
+}
+
+.text-container {
+    display: flex;
+    align-items: center;
+    width: 700px;
+    min-width: 700px;
+    background-color: whitesmoke;
+    border-radius: 2px;
+}
