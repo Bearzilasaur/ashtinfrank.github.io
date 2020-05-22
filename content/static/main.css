@@ -20,6 +20,12 @@ h1 {
     font-size: 32pt;
 }
 
+h2 h3 {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12pt;
+}
+
  p {
     padding: 5px;
     color: black;
@@ -81,6 +87,9 @@ ul {
     flex-direction: column;
     list-style: square;
     word-wrap: normal;
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12pt;
 }
 
 .flexbox-center-row {
@@ -131,4 +140,19 @@ ul {
     min-width: 700px;
     background-color: whitesmoke;
     border-radius: 2px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: white;
+    
+  }
+tr:nth-child(odd) {
+    background-color: #dddddd;
+}
+
+caption {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12pt;
 }
