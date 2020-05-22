@@ -157,7 +157,7 @@ table, th, td {
     font-size: 12pt;
     
   }
-tr:nth-child(odd) {
+tr:nth-child(even) {
     background-color: #dddddd;
 }
 
@@ -168,4 +168,8 @@ caption {
 
 .right {
     float: right;
+}
+
+.left {
+    float: left;
 }
