@@ -20,7 +20,13 @@ h1 {
     font-size: 32pt;
 }
 
-h2 h3 {
+h2 {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12pt;
+}
+
+h3 {
     color: black;
     font-family: 'Open Sans', sans-serif;
     font-size: 12pt;
