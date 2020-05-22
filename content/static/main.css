@@ -23,13 +23,13 @@ h1 {
 h2 {
     color: black;
     font-family: 'Open Sans', sans-serif;
-    font-size: 12pt;
+    font-weight: bold;
 }
 
 h3 {
     color: black;
     font-family: 'Open Sans', sans-serif;
-    font-size: 12pt;
+    align-self: start;
 }
 
  p {
@@ -144,7 +144,6 @@ ul {
     align-items: center;
     width: 700px;
     min-width: 700px;
-    background-color: whitesmoke;
     border-radius: 2px;
 }
 
@@ -152,6 +151,8 @@ table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
     background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12pt;
     
   }
 tr:nth-child(odd) {
