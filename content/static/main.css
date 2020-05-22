@@ -75,7 +75,7 @@ nav {
 }
   
 .nav-item:hover a {
-color: darkgreen;
+color: var(--rifle-green)
 }
 
 
