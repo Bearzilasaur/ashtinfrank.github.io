@@ -144,8 +144,8 @@ ul {
 .text-container {
     display: flex;
     align-items: center;
-    width: 700px;
-    min-width: 700px;
+    width: 800px;
+    min-width: 800px;
     border-radius: 2px;
 }
 
@@ -164,4 +164,8 @@ tr:nth-child(odd) {
 caption {
     font-family: 'Open Sans', sans-serif;
     font-size: 12pt;
+}
+
+.right {
+    float: right;
 }
