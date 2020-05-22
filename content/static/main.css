@@ -32,6 +32,11 @@ h3 {
     align-self: start;
 }
 
+h6 {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
  p {
     padding: 5px;
     color: black;
@@ -137,6 +142,10 @@ ul {
 
 .wide {
     justify-content: space-between;
+}
+
+.close {
+    justify-content: center;
 }
 
 .blue-box {
