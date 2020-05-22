@@ -64,6 +64,8 @@ nav {
     padding: 10px 15px;
     text-decoration: none;
     color:var(--rifle-green);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11pt;
 }
 
 .nav-item:hover {
